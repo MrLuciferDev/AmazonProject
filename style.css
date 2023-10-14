@@ -1,0 +1,518 @@
+*
+{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.all-link
+{
+    text-decoration: none;
+}
+.navbar
+{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo
+{
+    height: 50px;
+    width: 100px;
+}
+.logo
+{
+    height:50px;
+    width: 100px;
+}
+.border
+{
+    border: 1.5px solid transparent;
+}
+.border:hover
+{
+    border: 1.5px solid white;
+}
+.add-first
+{
+    color:#cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add-sec
+{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.add-logo
+{
+    display: flex;
+    align-items: center;
+}
+.nav-search
+{
+    display: flex;
+    background-color: #febd68;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+}
+.select-search
+{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: #f3f3f3;
+    width:50px;
+    text-align: center;
+    border: none;
+}
+.search-input
+{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon
+{
+    display: flex;
+    width:45px;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    color: black;
+}
+.nav-search:hover
+{
+    border: 2px solid orange;
+}
+.flag1
+{
+    color: white;
+}
+.lang
+{
+    display: flex;
+    justify-content: center;
+}
+.lang-search
+{
+    background-color: black;
+    color: #cccccc;
+    border: none;
+}
+.sign-first
+{
+    font-size: 12px;
+    color: white;
+}
+.sign-sec
+{
+    font-size: 14px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-weight: 700;
+}
+.cart
+{
+    display: flex;
+    align-items: flex-end;
+}
+.cart-logo
+{
+    font-size:2rem;
+    color: white;
+}
+.cart-text
+{
+    font-size: 14px;  
+    font-weight: 700;
+    color: white;
+}
+
+.panel
+{
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.left p
+{
+    display: inline;
+    font-size: 0.8rem;
+    margin-left:15px;
+}
+.left
+{
+    width:70%;
+}
+.right
+{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.hero-section
+{
+    background-image: url("hero-image2.jpg");
+    height:400px;
+    background-size: cover;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-mess
+{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-bottom: 25px;
+}
+.link
+{
+    color: #007185;
+    text-decoration: none;
+}
+.link:hover
+{
+    color: rgb(189, 2, 33);
+    text-decoration: underline;
+}
+.product-row a:hover
+{
+    text-decoration: underline;
+    color: orange;
+}
+.product-row
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.product-box
+{
+    width:313px;
+    height:420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.product-category
+{
+    font-size: 21px;
+    font-weight: 700;
+}
+.product-pic
+{
+    width: 313px;
+    height: 303px;
+}
+.product-link a
+{
+    font-size: 13px;
+    text-decoration: none;
+    color: #007185;
+}
+.pic1
+{
+    background-image: url("gaming.jpg");
+    background-size: cover;
+}
+.pic2
+{
+    background-image: url("electronics.jpg");
+    background-size: cover;
+}
+.pic3
+{
+    background-image: url("home\ and\ kitchen.jpg");
+    background-size: cover;
+}
+.pic4
+{
+    background-image: url("beauty.jpg");
+    background-size: cover;
+}
+.pic5
+{
+    background-image: url("toys.jpg");
+    background-size: cover;
+}
+.pic6
+{
+    background-image: url("health-care.jpg");
+    background-size: cover;
+}
+.pic7
+{
+    background-image: url("fashion.jpg");
+    background-size: cover;
+}
+.pic8
+{
+    background-image: url("readers.jpg");
+    background-size: cover;
+}
+.pic9
+{
+    background-image: url("toys2.jpg");
+    background-size: cover;
+}
+.pic10
+{
+    background-image: url("fitness.jpg");
+    background-size: cover;
+}
+.pic11
+{
+    background-image: url("fashion2.jpg");
+    background-size: cover;
+}
+.pic12
+{
+    background-image: url("laptop.jpg");
+    background-size: cover;
+}
+.pic13
+{
+    background-image: url("smart\ watch.jpg");
+    background-size: cover;
+}
+.pic14
+{
+    background-image: url("strip\ ligts.jpg");
+    background-size: cover;
+}
+.pic15
+{
+    background-image: url("home\ refresh.jpg");
+    background-size: cover;
+}
+.pic16
+{
+    background-image: url("home\ space.jpg");
+    background-size: cover;
+}
+.sign-in
+{
+    height: 126px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.first-line
+{
+    font-size: 13px;
+}
+.butt
+{
+    width: 230px;
+    height: 28px;
+    background-color: #febd68;
+    border-radius: 5px;
+    border: none;
+    font-weight: 700;
+}
+.third-line
+{
+    font-size: 11px;
+}
+.third-line a
+{
+    color: #007185;
+    text-decoration: none;
+}
+.third-line a:hover
+{
+    color: orangered;
+}
+.back-to-top
+{
+    width:1857px;
+    height: 49px;
+    background-color: #37475a;
+    color: white;
+    border: none;
+}
+.panel2
+{
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #222f3d;
+}
+.panel2 p
+{
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 20px;
+}
+.panel2 a
+{
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+.column
+{
+    display:flex;
+    flex-direction: column;
+}
+.panel2 a:hover
+{
+    text-decoration: underline;
+}
+.panel3
+{
+    background-color:#222f3d ;
+    height: 68px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.panel3-logo
+{
+    margin-top: 10px;
+}
+.panel3-text
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.panel3-text div
+{
+    margin-right: 20px;
+}
+.text1
+{
+    width: 116px;
+    height: 35px;
+    border: 0.5px solid white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+.globe
+{
+    color: white;
+    margin-top: 10px;
+}
+.text2
+{
+    width: 150px;
+    height: 35px;
+    border: 0.5px solid white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}  
+.text3
+{
+    width: 141px;
+    height: 35px;
+    border: 0.5px solid white; 
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    
+}
+.flag
+{
+    color: white;
+    margin-top: 10px;
+}
+.one
+{
+    background-color: #222f3d;
+    color: white;
+    border: none;
+}
+.two 
+{
+    background-color: #222f3d;
+    color: white;
+    border: none;
+}
+.three 
+{
+    background-color: #222f3d;
+    color: white;
+    border: none;
+}
+.panel4
+{
+    background-color:#11171f;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.panel4-row
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.panel4-text-line1
+{
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+}
+.panel4-text-line2
+{
+    color: wheat;
+    font-size: 12px;
+}
+
+.panel5
+{
+    background-color: #11171f;
+    color: white;
+    height: 200px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.panel5-line1
+{
+    display: flex;
+    justify-content: center;
+}
+.panel5-line1 a 
+{
+    color: white;
+    margin: 5px;
+    font-size: 12px;
+    text-decoration: none;
+}
+.panel5-line1 a:hover
+{
+    text-decoration: underline;
+}
+.panel5-line1 i
+{
+    margin-top: 5px;
+    font-size: 12px;
+}
+.panel5-line2
+{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+}
